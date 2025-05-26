@@ -1,33 +1,3 @@
-/*
-let peliculas = [
-    { titulo: "El Padrino", vista: false },
-    { titulo: "El Padrino II", vista: false },
-    { titulo: "El Padrino III", vista: true },
-    { titulo: "El Señor de los Anillos: La Comunidad del Anillo", vista: true },
-    { titulo: "El Señor de los Anillos: Las Dos Torres", vista: false },
-    { titulo: "El Señor de los Anillos: El Retorno del Rey", vista: true },
-    { titulo: "La Guerra de las Galaxias", vista: false },
-    { titulo: "La Guerra de las Galaxias II", vista: false },
-    { titulo: "La Guerra de las Galaxias III", vista: true },
-]
-
-const mostrarPeliculas = () => {
-    if (peliculas.length === 0) {
-        console.log("No hay películas en la lista.");
-        return
-    }
-
-    const peliculasVista = peliculas.filter(pelicula => pelicula.vista === true);
-    const peliculasNoVista = peliculas.filter(pelicula => pelicula.vista === false);
-    console.log("Películas vistas:");
-    console.table(peliculasVista);
-    console.log("Películas no vistas:");
-    console.table(peliculasNoVista);
-}
-
-mostrarPeliculas()
-*/
-
 import { createInterface } from "readline";
 import chalk from "chalk";
 
