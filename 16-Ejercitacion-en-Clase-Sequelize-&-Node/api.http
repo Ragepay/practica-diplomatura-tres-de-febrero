@@ -1,0 +1,33 @@
+### Bienvenida a la API
+GET http://localhost:9000/
+Accept: application/json
+###
+
+### Lectura de todos los USERS.
+GET http://localhost:9000/user
+Accept: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NWI1MmYyMjk0NzZjM2I4MmQyNGNlNiIsImVtYWlsIjoiYmVuamFwZXk5OUBnbWFpbC5jb20iLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3NTA4MTU1MTksImV4cCI6MTc1MTQyMDMxOX0.M6c9nnAMQcjiCc5xQ5ZFd3NiciZG4TudcZvutekXk7Q
+
+### Bienvenida a contact
+POST http://localhost:9000/register
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Benjamin Matias Peyraga",
+  "email": "benjapey99@gmail.com",
+  "password": "12345678",
+  "role": "ADMIN"
+}
+###
+
+### Bienvenida a contact
+POST http://localhost:9000/login
+Accept: application/json
+Content-Type: application/json
+
+{
+  "email": "benjapey99@gmail.com",
+  "password": "12345678"
+}
+###

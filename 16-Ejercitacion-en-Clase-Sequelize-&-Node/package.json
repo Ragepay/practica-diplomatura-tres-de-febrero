@@ -1,0 +1,20 @@
+{
+	"name": "Clase-25-JWT",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "node --watch index.js",
+		"test": "node test.js"
+	},
+	"dependencies": {
+		"express": "^5.1.0",
+		"jsonwebtoken": "^9.0.2",
+		"mongoose": "^8.16.0",
+		"morgan": "^1.10.0",
+		"mysql2": "^3.15.0",
+		"sequelize": "^6.37.7"
+	}
+}
