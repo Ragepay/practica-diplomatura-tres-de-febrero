@@ -1,0 +1,39 @@
+### Bienvenida a la API
+GET http://localhost:9000/
+Accept: application/json
+
+### Lectura de todos los EMPLEADOS.
+GET http://localhost:9000/empleados
+Accept: application/json
+
+### Lectura de todos los PRODUCTOS.
+GET http://localhost:9000/productos
+Accept: application/json
+
+### Lectura de un producto por ID o por PK.
+GET http://localhost:9000/productos/4
+Accept: application/json
+
+### Lectura de un producto por query.
+GET http://localhost:9000/productos/vieworderdetails
+Accept: application/json
+
+### Lectura de un producto por query LIKE
+GET http://localhost:9000/productos/vieworderdetails/10248
+Accept: application/json
+
+
+### Lectura de un producto por su nombre.
+GET http://localhost:9000/productos/nombre/Chef Anton's Cajun Seasoning
+Accept: application/json
+
+### Lectura de un producto por su categoria
+GET http://localhost:9000/productos/categoria/2
+Accept: application/json
+
+### Lectura de un producto por query.
+GET http://localhost:9000/productos/query/Chef
+Accept: application/json
+
+
+
