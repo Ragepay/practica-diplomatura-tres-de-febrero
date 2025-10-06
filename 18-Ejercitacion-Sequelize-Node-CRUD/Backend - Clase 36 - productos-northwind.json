@@ -1,0 +1,83 @@
+[
+    {
+      "productName": "Queso Parmesano",
+      "CategoryID": 4,
+      "QuantityPerUnit": "10 unidades por paquete",
+      "UnitPrice": 12.99,
+      "UnitsInStock": 50,
+      "UnitsOnOrder": 20
+    },
+    {
+      "productName": "Queso Brie",
+      "CategoryID": 4,
+      "QuantityPerUnit": "1 unidad",
+      "UnitPrice": 15.49,
+      "UnitsInStock": 30,
+      "UnitsOnOrder": 15
+    },
+    {
+      "productName": "Queso Gouda",
+      "CategoryID": 4,
+      "QuantityPerUnit": "250 g por unidad",
+      "UnitPrice": 9.99,
+      "UnitsInStock": 70,
+      "UnitsOnOrder": 10
+    },
+    {
+      "productName": "Chorizo Español",
+      "CategoryID": 6,
+      "QuantityPerUnit": "5 unidades por paquete",
+      "UnitPrice": 8.99,
+      "UnitsInStock": 40,
+      "UnitsOnOrder": 5
+    },
+    {
+      "productName": "Jamón Serrano",
+      "CategoryID": 6,
+      "QuantityPerUnit": "1 unidad",
+      "UnitPrice": 18.99,
+      "UnitsInStock": 25,
+      "UnitsOnOrder": 8
+    },
+    {
+      "productName": "Queso Roquefort",
+      "CategoryID": 4,
+      "QuantityPerUnit": "100 g por unidad",
+      "UnitPrice": 14.79,
+      "UnitsInStock": 20,
+      "UnitsOnOrder": 7
+    },
+    {
+      "productName": "Queso Camembert",
+      "CategoryID": 4,
+      "QuantityPerUnit": "1 unidad",
+      "UnitPrice": 13.99,
+      "UnitsInStock": 35,
+      "UnitsOnOrder": 12
+    },
+    {
+      "productName": "Salami Italiano",
+      "CategoryID": 6,
+      "QuantityPerUnit": "250 g por unidad",
+      "UnitPrice": 10.25,
+      "UnitsInStock": 60,
+      "UnitsOnOrder": 15
+    },
+    {
+      "productName": "Mozzarella Fresca",
+      "CategoryID": 4,
+      "QuantityPerUnit": "200 g por unidad",
+      "UnitPrice": 11.99,
+      "UnitsInStock": 55,
+      "UnitsOnOrder": 18
+    },
+    {
+      "productName": "Queso Manchego",
+      "CategoryID": 4,
+      "QuantityPerUnit": "1 unidad",
+      "UnitPrice": 16.99,
+      "UnitsInStock": 30,
+      "UnitsOnOrder": 10
+    }
+  ]
+  

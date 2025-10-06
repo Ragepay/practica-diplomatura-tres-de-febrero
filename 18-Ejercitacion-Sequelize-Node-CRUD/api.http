@@ -1,0 +1,147 @@
+### Bienvenida a la API
+GET http://localhost:9000/
+Accept: application/json
+
+### Lectura de todos los EMPLEADOS.
+GET http://localhost:9000/empleados
+Accept: application/json
+
+### Lectura de todos los PRODUCTOS.
+GET http://localhost:9000/productos
+Accept: application/json
+
+### Lectura de un producto por ID o por PK.
+GET http://localhost:9000/productos/82
+Accept: application/json
+
+### Lectura de un producto por query.
+GET http://localhost:9000/productos/vieworderdetails
+Accept: application/json
+
+### Lectura de un producto por query LIKE
+GET http://localhost:9000/productos/vieworderdetails/
+Accept: application/json
+
+### Lectura de un producto por su nombre.
+GET http://localhost:9000/productos/nombre/Chef Anton's Cajun Seasoning
+Accept: application/json
+
+### Lectura de un producto por su categoria
+GET http://localhost:9000/productos/categoria/2
+Accept: application/json
+
+### Lectura de un producto por query.
+GET http://localhost:9000/productos/query/Chef
+Accept: application/json
+
+### Creacion de un nuevo Producto.
+POST http://localhost:9000/productos
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Nuevo Producto",
+"CategoryID": 4,
+"QuantityPerUnit": "10 u x bags",
+"UnitPrice": 12.99,
+"UnitsInStock": 50,
+"UnitsOnOrder": 20
+}
+
+### Actualizacion de un nuevo Producto.
+PUT http://localhost:9000/productos/82
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Producto Actualizado",
+"CategoryID": 4,
+"QuantityPerUnit": "10 u x bags",
+"UnitPrice": 19.99,
+"UnitsInStock": 40,
+"UnitsOnOrder": 10
+}
+
+
+### PACTH de un nuevo Producto.
+PATCH  http://localhost:9000/productos/82
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Producto Actualizado",
+"CategoryID": 4,
+"QuantityPerUnit": "10 u x bags",
+"UnitPrice": 19.99,
+"UnitsInStock": 40,
+"UnitsOnOrder": 10
+}
+
+### Delete de un Producto.
+DELETE  http://localhost:9000/productos/82
+Accept: application/json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### SECCION PRACTICA
+### Creacion de Producto 1
+POST http://localhost:9000/productos
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Queso Brie",
+"CategoryID": 4,
+"QuantityPerUnit": "1 unidad",
+"UnitPrice": 15.49,
+"UnitsInStock": 30,
+"UnitsOnOrder": 15
+}
+
+### Creacion de Producto 2
+POST http://localhost:9000/productos
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Jamón Serrano",
+"CategoryID": 6,
+"QuantityPerUnit": "1 unidad",
+"UnitPrice": 18.99,
+"UnitsInStock": 25,
+"UnitsOnOrder": 8
+}
+
+### Creacion de Producto 3
+POST http://localhost:9000/productos
+Accept: application/json
+Content-Type: application/json
+
+{
+"ProductName": "Queso Camembert",
+"CategoryID": 4,
+"QuantityPerUnit": "1 unidad",
+"UnitPrice": 13.99,
+"UnitsInStock": 35,
+"UnitsOnOrder": 12
+}
+
+### Lectura de todos los PRODUCTOS.
+GET http://localhost:9000/productos
+Accept: application/json
+
+
